@@ -1,0 +1,14 @@
+{
+  "version": 8,
+  "configurePresets": [
+    {
+      "name": "default",
+      "displayName": "Default Build",
+      "description": "Portable preset using system default compiler",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    }
+  ]
+}
